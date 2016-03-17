@@ -1,8 +1,23 @@
 # stringutils
 
+**SQL转JAVA字符串**
+CreateSqlWin.java
+
 **加解密字符串**
+DESUtil.java
+
+**转拼音**
+PinyinUtil.java
+```xml
+  	<dependency>
+	    <groupId>com.belerweb</groupId>
+	    <artifactId>pinyin4j</artifactId>
+	    <version>2.5.0</version>
+	</dependency>
+```
 
 **分词**
+SplitWordsUtil.java
 ```xml
 	<dependency>
 	    <groupId>org.apache.lucene</groupId>
@@ -17,11 +32,9 @@
     </dependency>
     -->
 ```
-**转拼音**
-```xml
-  	<dependency>
-	    <groupId>com.belerweb</groupId>
-	    <artifactId>pinyin4j</artifactId>
-	    <version>2.5.0</version>
-	</dependency>
-```
+
+**字符串处理**
+StringUtil.java
+
+**字符串单位转换**
+UnitConversionUtil.java
